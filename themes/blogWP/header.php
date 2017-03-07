@@ -14,7 +14,7 @@
 
 <body <?php body_class(); ?>>
 
-    <header class="container site-header">
+    <header class="container-header site-header">
         <div class="logo">
           <a href="<?php echo home_url('/'); ?>">
             <img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent-white.svg" class="logo" alt="Inhabitent Logo" />

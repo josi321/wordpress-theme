@@ -1,0 +1,75 @@
+/*FOOTER SECTION */
+.footer {
+  background: url("images/dark-wood.png");
+}
+
+.footer-block-item {
+    margin: 3rem 0;
+    padding-right: 1.5rem;
+    width: 25%;
+    display: block;
+}
+
+.contact {
+    color: #FFF;
+    font-family: Merriweather Web,serif;
+    line-height: 1.75;
+}
+
+.contact h3 {
+  color: #d99054;
+  font-family: sans-serif;
+  font-size: 2rem;
+  margin-bottom: .75rem;
+  text-transform: uppercase
+}
+
+.hours h3 {
+  color: #d99054;
+  font-family: sans-serif;
+  font-size: 2rem;
+  margin-bottom: .75rem;
+  text-transform: uppercase
+}
+
+.footer i {
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.hours p {
+  color: #FFF;
+  font-family: serif;
+  font-size: 1.5rem;
+}
+
+.container-footer {
+display: flex;
+justify-content: space-between;
+padding: 2rem 4%;
+margin: 0 auto;
+width: 100%;
+}
+
+
+.item {
+  align-self: baseline;
+}
+
+.item-logo {
+  align-self: center;
+}
+
+.copyright p {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding-left:40%;
+}

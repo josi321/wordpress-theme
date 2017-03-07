@@ -15,7 +15,6 @@
 					</h4>
 					<p>Posted On: <?php the_time('F j, Y g:i a'); ?></p>
           <p> <?php the_excerpt(); ?> </p>
-          <br />
               <a class="button" href="<?php the_permalink(); ?>">
                   Read More
               </a>

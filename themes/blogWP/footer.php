@@ -1,6 +1,6 @@
 <footer>
 <div class="footer">
-    <div class="container">
+    <div class="container-footer">
 
         <div class="item">
             <div class="contact">
@@ -34,7 +34,7 @@
     </div>
 
     <div class="copyright">
-        <div class="container">
+        <div class="container-footer">
             <p> COPYRIGHT &copy; <?php echo get_the_date('Y'); ?> <?php bloginfo('name'); ?></p>
         </div>
     </div>

@@ -5,34 +5,28 @@
     </section>
 
     <section>
-      <?php get_terms(array("taxonomy"=> "Type", "hide_empty"=>false)); ?>
+        <?php $terms = get_terms(array("taxonomy"=> "Type", "hide_empty"=>false)); ?>
+        print_r($terms);
         <h1 class="shop-h1">SHOP STUFF</h1>
 
         <div class="shop-container">
+          <?php foreach ($terms as $term): ?>
             <div class="square">
-                <img src= "<?php echo get_template_directory_uri(); ?>/images/icons/do.svg" alt="do icon">
-                <h3>Get back to nature with all the tools and toys you need to enjoy the great outdoors.</h3>
-                <button type="button">DO STUFF</button>
+                <img src="<?php echo get_bloginfo('stylesheet_directory')?>/images/icons/<?php echo $term->slug;?>.svg">
+                <h3><?php echo $term -> description;?></p></h3>
+                <button><?php echo $term->slug;?> Stuff</button>
             </div>
+          <?php endforeach;  ?>
 
-            <div class="square">
-                <img src= "<?php echo get_template_directory_uri(); ?>/images/icons/eat.svg" alt="cup icon">
-                <h3>Nothing beats food cooked over fire. We have all you need for good camping eats.</h3>
-                <button type="button">EAT STUFF</button>
-            </div>
+          <?php
 
-            <div class="square">
-                <img src= "<?php echo get_template_directory_uri(); ?>/images/icons/sleep.svg" alt="sleepbag icon">
-                <h3>Get a good night's rest in the wild in a home away from home that travels well.</h3>
-                <button type="button">SLEEP STUFF</button>
-            </div>
+          $query_posts = new WP_Query(array (
+              "posts_per_page"=> 3,
+              "post_type" => "Post",
+          ));
+          ?>
 
-            <div class="square">
-                <img src= "<?php echo get_template_directory_uri(); ?>/images/icons/wear.svg" alt="sweater icon">
-                <h3>From flannel shirts to toques, look the part while roughing it in the great outdoors.</h3>
-                <button type="button">WEAR STUFF</button>
-            </div>
-        </div>
+
     </section>
 
     <section>
