@@ -771,12 +771,14 @@ nav.main-nav {
 /*.archive-post a{
 	font-size:1rem;
 }*/
+/*SHOP SECTION*/
+/*JOURNAL SECTION*/
+/*ADVENTURES SECTION*/
 .banner {
   background: url("images/logos/inhabitent-logo-full.svg") center no-repeat, linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("images/home-hero.jpg") top no-repeat;
   min-height: 100vh;
   z-index: 1; }
 
-/*SHOP SECTION*/
 .shop-h1 {
   text-align: center;
   padding: 3rem 0;
@@ -805,26 +807,23 @@ nav.main-nav {
   -ms-flex-pack: justify;
       justify-content: space-between;
   padding: 2rem; }
+  .square img {
+    max-width: 25%;
+    max-width: 25%; }
+  .square h3 {
+    font-size: 16px;
+    color: #404040;
+    line-height: 1.75;
+    font-family: 'Merriweather', serif;
+    height: 8rem; }
+  .square button {
+    background-color: #248A83;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-family: 'Novovento Sans Web', sans-serif; }
 
-.square img {
-  max-width: 25%;
-  max-width: 25%; }
-
-h3 {
-  font-size: 16px;
-  color: #404040;
-  line-height: 1.75;
-  font-family: 'Merriweather', serif; }
-
-.square button {
-  background-color: #248A83;
-  border: none;
-  color: white;
-  text-align: center;
-  padding: 1rem 2rem;
-  font-family: 'Novovento Sans Web', sans-serif; }
-
-/*JOURNAL SECTION*/
 .journal-h1 {
   text-align: center;
   padding: 3rem 0;
@@ -846,25 +845,22 @@ h3 {
   width: 30%;
   border: 2px solid #e1e1e1;
   height: 75vh; }
-
-.journal-image h4 {
-  font-size: 12px;
-  color: #404040;
-  line-height: 1.75;
-  font-family: 'Merriweather', serif;
-  padding-left: 1rem; }
-
-.journal-image img {
-  width: 100%;
-  height: auto;
-  border-bottom: 5px solid #e1e1e1; }
-
-.journal-image h2 a {
-  font-size: 1.75rem;
-  color: #248A83;
-  line-height: 1.5;
-  font-family: 'Merriweather', serif;
-  text-transform: uppercase; }
+  .journal-image h4 {
+    font-size: 12px;
+    color: #404040;
+    line-height: 1.75;
+    font-family: 'Merriweather', serif;
+    padding-left: 1rem; }
+  .journal-image img {
+    width: 100%;
+    height: auto;
+    border-bottom: 5px solid #e1e1e1; }
+  .journal-image h2 a {
+    font-size: 1.75rem;
+    color: #248A83;
+    line-height: 1.5;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase; }
 
 .read-btn {
   border: 1px solid black;
@@ -876,7 +872,6 @@ h3 {
   padding: 10px 15px;
   transform: translate(0px, 100px); }
 
-/*ADVENTURES SECTION*/
 .adventure-h1 {
   text-align: center;
   padding: 3rem 0 3rem 0;

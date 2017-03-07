@@ -6,14 +6,14 @@
 
     <section>
         <?php $terms = get_terms(array("taxonomy"=> "Type", "hide_empty"=>false)); ?>
-        print_r($terms);
+
         <h1 class="shop-h1">SHOP STUFF</h1>
 
         <div class="shop-container">
           <?php foreach ($terms as $term): ?>
             <div class="square">
                 <img src="<?php echo get_bloginfo('stylesheet_directory')?>/images/icons/<?php echo $term->slug;?>.svg">
-                <h3><?php echo $term -> description;?></p></h3>
+                    <h3><?php echo $term -> description;?></p></h3>
                 <button><?php echo $term->slug;?> Stuff</button>
             </div>
           <?php endforeach;  ?>
