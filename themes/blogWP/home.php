@@ -45,7 +45,9 @@
             <div class="journal-image">
                 <img <?php the_post_thumbnail(); ?>
                 <h4><?php the_date('F j, Y'); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></h4>
-                <h2><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h2>
+                <div class="height">
+                  <h2><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h2>
+                </div>    
                 <a class="read-btn" href="<?php the_permalink(); ?>">READ ENTRY</a>
             </div>
           <?php endforeach; ?>
