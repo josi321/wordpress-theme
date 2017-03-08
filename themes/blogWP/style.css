@@ -876,6 +876,11 @@ nav.main-nav {
   padding: 10px 15px;
   transform: translate(0px, 100px); }
 
+.container-adventure {
+  padding: 0 5%;
+  margin: 0 auto;
+  width: 100%; }
+
 .adventure-h1 {
   text-align: center;
   padding: 3rem 0 3rem 0;
@@ -894,17 +899,15 @@ nav.main-nav {
 .white-border {
   border: 10px solid white; }
 
-.large {
-  width: 100%;
+.firstDiv {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
   height: 80vh; }
-
-.canoe {
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("images/adventure/canoe-girl.jpg") center no-repeat; }
 
 .title {
   color: white;
   text-transform: capitalize;
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   font-family: 'Merriweather', serif;
   line-height: 1.5;
   font-weight: lighter;
@@ -920,41 +923,30 @@ nav.main-nav {
   padding: 10px 15px;
   margin-left: 3rem; }
 
-.small {
-  width: 100%;
+.secondDivTop {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
   height: 40vh; }
 
-.float-right {
+.secondDiv {
   float: right; }
 
 .clr {
   clear: both; }
 
-.beach {
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("images/adventure/beach-bonfire.jpg") center no-repeat; }
-
-.xs {
-  width: 50%;
+.thirdDivL {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
   height: 40vh; }
 
-.mountain {
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("images/adventure/mountain-hikers.jpg") center bottom no-repeat; }
-
-.star {
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("images/adventure/night-sky.jpg") center bottom no-repeat; }
-
-.title-small {
-  color: white;
-  text-transform: capitalize;
-  font-size: 1.5rem;
-  font-family: 'Merriweather', serif;
-  line-height: 1.5;
-  font-weight: lighter;
-  padding: 1rem; }
+.thirdDivR {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  height: 40vh; }
 
 .bottom-btn {
-  margin-left: 10rem;
-  margin-bottom: 6rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
   padding: 5rem 0; }
 
 .green-btn {
@@ -1034,3 +1026,28 @@ nav.main-nav {
   text-transform: uppercase;
   font-size: 1rem;
   padding-left: 40%; }
+
+.about-image {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("images/about-hero.jpg") bottom no-repeat;
+  min-height: 90vh;
+  z-index: 1; }
+  .about-image .about {
+    color: white;
+    text-transform: Uppercase;
+    text-align: center;
+    padding-top: 16rem;
+    font-size: 3.5rem; }
+
+.about-container {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px; }
+  .about-container .about-paragraphs {
+    max-width: 800px;
+    margin: 3rem auto;
+    font-size: 1.23rem; }
+  .about-container .about-title {
+    text-align: center;
+    font-size: 3rem;
+    color: black; }

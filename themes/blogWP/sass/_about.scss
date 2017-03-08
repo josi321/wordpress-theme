@@ -1,0 +1,29 @@
+.about-image {
+	background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%), url("images/about-hero.jpg") bottom no-repeat;
+	min-height: 90vh;
+	z-index: 1;
+	.about {
+		color: white;
+		text-transform: Uppercase;
+		text-align: center;
+    padding-top:16rem;
+    font-size: 3.5rem;
+	}
+}
+
+.about-container {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  .about-paragraphs {
+    max-width: 800px;
+    margin: 3rem auto;
+    font-size: 1.23rem;
+  }
+  .about-title {
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+  }
+}
