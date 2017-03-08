@@ -13,8 +13,10 @@
           <?php foreach ($terms as $term): ?>
             <div class="square">
                 <img src="<?php echo get_bloginfo('stylesheet_directory')?>/images/icons/<?php echo $term->slug;?>.svg">
-                    <h3><?php echo $term -> description;?></p></h3>
-                <button><?php echo $term->slug;?> STUFF</button>
+                <h3><?php echo $term -> description;?></p></h3>
+                <a href= "<?php echo get_term_link($term) ?>">
+                  <button><?php echo $term->slug;?> STUFF</button>
+                </a>
             </div>
           <?php endforeach;  ?>
 
