@@ -1,0 +1,19 @@
+article.post{
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+article.post a.button {
+  display: inline-block;
+  background: #333;
+  color: #FFF;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.post-thumbnail img{
+  width:100%;
+  height:auto;
+}
