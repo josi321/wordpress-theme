@@ -89,7 +89,7 @@
 
               <article class="adventure-header" id="post-<?php the_ID(); ?>" <?php post_class(); ?>  >
                   <div class="adventure-text">
-                    <h2 class="title"><?php echo the_title()?></h2>
+                    <a href="<?php echo get_permalink(); ?>"><h2 class="title"><?php echo the_title()?></h2></a>
                     <a class="ad-btn" href="<?php echo get_permalink(); ?>"> READ MORE
                       <!-- <button class=" caps">Read More</button> -->
                     </a>
