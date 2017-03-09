@@ -28,5 +28,6 @@ im in taxonomy
 <?php endif; ?>
 
 </div>
+<br><br><br><br>
 
 <?php get_footer(); ?>
