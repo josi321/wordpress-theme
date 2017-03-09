@@ -1051,11 +1051,14 @@ nav.main-nav {
 
 /*style the shop page*/
 .shop-page-container {
-  padding: 0 5%;
   margin: 0 auto;
   width: 100%;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   color: black;
   padding: 1rem 0; }
+
+.product-links {
+  color: green;
+  font-size: 1rem; }
