@@ -1,9 +1,6 @@
 i am in archive products.php
 <?php get_header(); ?>
-<?php
-
-
- ?>
+<div>
 <br><br><br><br><br>
 <div class="shop-page-container">
   <h1>Shop stuff</h1>
@@ -21,4 +18,8 @@ i am in archive products.php
   ?>
 </div>
 
+
+</div>
+
+<br><br>
 <?php get_footer(); ?>
