@@ -31,7 +31,7 @@
                <?php wp_nav_menu($args); ?>
             </div>
             <div class="h_right">
-          <form method="get" action="<?php esc_url(home_url('/')); ?>">
+          <form method="get" action="<?php echo home_url(); ?>">
             <i class="fa fa-search fa-2x">
               <input type="text" name="s" />
             </i>
