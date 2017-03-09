@@ -117,8 +117,11 @@
         </div>
     </div>
 
-        <div class="bottom-btn container-adventure">
-            <a href="get_permalink" class="green-btn">MORE ADVENTURES</a>
-        </div>
+  <div class="bottom-btn container-adventure">
+              <a href="http://localhost:8888/coinhabitent/adventures/" class="green-btn">MORE ADVENTURES</a>
+          </div>
+
+
+
     </section>
 <?php get_footer(); ?>
