@@ -1062,3 +1062,7 @@ nav.main-nav {
 .product-links {
   color: green;
   font-size: 1rem; }
+
+.product-taxonomy-header {
+  text-align: center;
+  padding: 3rem; }

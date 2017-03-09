@@ -118,7 +118,7 @@
     </div>
 
         <div class="bottom-btn container-adventure">
-            <a href="#" class="green-btn">MORE ADVENTURES</a>
+            <a href="get_permalink" class="green-btn">MORE ADVENTURES</a>
         </div>
     </section>
 <?php get_footer(); ?>

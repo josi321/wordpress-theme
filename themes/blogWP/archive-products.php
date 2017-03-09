@@ -15,7 +15,7 @@ i am in archive products.php
   </div>
 </div>
 
-<div class="archive-products-container">
+<div class="archive-products-container" style="width:100%; padding:5% 6%;">
   <?php
     get_template_part( 'template-parts/content', 'product' );
   ?>
