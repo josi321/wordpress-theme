@@ -1,0 +1,35 @@
+.single-product-container{
+  height: 80vh;
+  padding-top: 7%;
+}
+
+.product-description{
+  float: right;
+  width: 50%;
+  padding: 1rem;
+  h1{
+    color: orange;
+    font-size:2rem;
+    text-transform: uppercase;
+    padding:1rem;
+  }
+  h2{
+    font-size: 1.5rem;
+    color: #333;
+    padding:0 1rem;
+  }
+  p{
+    font-size: 1rem;
+    color: #333;
+    line-height:1.5;
+    padding:0 3rem 2rem 1rem;
+  }
+  .social-buttons a{
+    border: 1px solid #333;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 0 0.5rem;
+    color: #333;
+    font-size: 1rem;
+  }
+}
