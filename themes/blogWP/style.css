@@ -1100,3 +1100,41 @@ nav.main-nav {
     margin: 0 0.5rem;
     color: #333;
     font-size: 1rem; }
+
+.height-containers {
+  width: 100%;
+  height: auto;
+  padding: 2rem; }
+
+article.post {
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  padding-bottom: 10px; }
+
+article.post a.button {
+  display: inline-block;
+  background: #333;
+  color: #FFF;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-decoration: none; }
+
+.post-thumbnail img {
+  width: 100%;
+  height: auto; }
+
+.ad-archive-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  padding: 2rem;
+  border-bottom: 3px solid #f4f4f4; }
+
+.adventure-grid {
+  width: 100%;
+  padding: 1rem;
+  min-height: 150vh; }
+  .adventure-grid img {
+    width: 100%;
+    height: auto;
+    border-top: 20px solid white; }
