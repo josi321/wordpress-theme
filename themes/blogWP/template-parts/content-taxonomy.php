@@ -4,10 +4,12 @@
 <?php endforeach;  ?>
 
 <div class="taxonomy-container">
-  <div class="col-sm-3">
-      <?php echo the_post_thumbnail("small"); ?>
+  <div class="col-xs-3">
+    <div class="product-grids">
+        <img class= "taxonomy-img" <?php echo the_post_thumbnail("small"); ?>
         <p class="price">
           <a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a>.....<?php echo get_field('Price'); ?>
        </p>
-      </div>
+    </div>
+  </div>
 </div>

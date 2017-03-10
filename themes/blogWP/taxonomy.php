@@ -1,11 +1,9 @@
-im in taxonomy
- do eat sleep wear
+<br>
 
 <?php get_header(); ?>
 
 
 <?php if ( have_posts() ) : ?>
-
   <header>
     <div class="product-taxonomy-header">
       <h1><?php single_term_title(); ?></h1>
@@ -15,7 +13,7 @@ im in taxonomy
     </div>
   </header>
 
-  <div class="taxonomy-grid" style="height:40%;">
+  <div class="taxonomy-grid" style="height:70%;">
 
       <?php while ( have_posts() ) : the_post(); ?>
         <?php
@@ -28,6 +26,6 @@ im in taxonomy
 <?php endif; ?>
 
 </div>
-<br><br><br><br>
+
 
 <?php get_footer(); ?>
