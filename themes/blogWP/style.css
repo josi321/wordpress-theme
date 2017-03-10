@@ -902,7 +902,7 @@ nav.main-nav {
 .firstDiv {
   -ms-flex-preferred-size: 70%;
       flex-basis: 70%;
-  height: 80vh; }
+  min-height: 80vh; }
 
 .title {
   color: white;
@@ -913,20 +913,20 @@ nav.main-nav {
   font-weight: lighter;
   padding: 2rem; }
 
-.ad-btn {
-  border: 1px solid white;
-  background-color: transparent;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  font-family: 'Merriweather', serif;
-  padding: 10px 15px;
-  margin-left: 3rem; }
-
+/*.ad-btn {
+	border: 1px solid white;
+	background-color: transparent;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Merriweather', serif;
+	padding: 10px 15px;
+	margin-left: 3rem;
+}*/
 .secondDivTop {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  height: 40vh; }
+  min-height: 40vh; }
 
 .secondDiv {
   float: right; }
@@ -935,14 +935,14 @@ nav.main-nav {
   clear: both; }
 
 .thirdDivL {
+  min-height: 40vh;
   -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  height: 40vh; }
+      flex-basis: 50%; }
 
 .thirdDivR {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-  height: 40vh; }
+  min-height: 40vh; }
 
 .bottom-btn {
   margin-left: 5rem;

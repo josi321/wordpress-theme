@@ -81,7 +81,7 @@
               <?php endif ?>
               <?php  if($i == 3) : ?>
                   <div class="flex-container">
-                      <div class="thirdDivLeft white-border" style="background: linear-gradient(rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('<?php echo $thumb['0'];?>') center !important; background-size: cover !important; ">
+                      <div class="thirdDivLeft white-border" style="background: linear-gradient(rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('<?php echo $thumb['0'];?>') center !important; background-size: cover !important; width:50%;">
                       <?php endif ?>
                       <?php  if($i == 4) : ?>
                        <div class="thirdDivR white-border" style="background: linear-gradient(rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url('<?php echo $thumb['0'];?>') center !important; background-size: cover !important; ">
@@ -90,9 +90,10 @@
               <article class="adventure-header" id="post-<?php the_ID(); ?>" <?php post_class(); ?>  >
                   <div class="adventure-text">
                     <a href="<?php echo get_permalink(); ?>"><h2 class="title"><?php echo the_title()?></h2></a>
-                    <a class="ad-btn" href="<?php echo get_permalink(); ?>"> READ MORE
-                      <!-- <button class=" caps">Read More</button> -->
+                    <a href="<?php echo get_permalink(); ?>">
+                      <button style="border: 1px solid white; padding: 10px 30px; color: white; background-color: transparent;  box-shadow: none; margin-left: 1rem; font-family:Merriweather', serif">READ MORE</button>
                     </a>
+                    <br>
                   </div>
               </article>
 

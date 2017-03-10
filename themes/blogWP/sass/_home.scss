@@ -132,7 +132,7 @@
 
 .firstDiv {
 	flex-basis:70%;
-	height:80vh;
+	min-height:80vh;
 }
 
 .title {
@@ -144,7 +144,7 @@
 	font-weight: lighter;
 	padding: 2rem;
 }
-.ad-btn {
+/*.ad-btn {
 	border: 1px solid white;
 	background-color: transparent;
 	text-align: center;
@@ -153,10 +153,10 @@
 	font-family: 'Merriweather', serif;
 	padding: 10px 15px;
 	margin-left: 3rem;
-}
+}*/
 .secondDivTop {
 	flex-basis: 100%;
-	height: 40vh;
+	min-height: 40vh;
 }
 
 .secondDiv {
@@ -167,13 +167,13 @@
 }
 
 .thirdDivL {
+	min-height:40vh;
 	flex-basis:50%;
-	height:40vh;
 }
 
 .thirdDivR{
 	flex-basis: 50%;
-	height:40vh;
+	min-height:40vh;
 }
 
 .bottom-btn {
