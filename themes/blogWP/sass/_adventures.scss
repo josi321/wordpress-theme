@@ -16,3 +16,25 @@
     border-top:20px solid white;
   }
 }
+
+.post{
+  height:100vh;
+  position:relative;
+  .post-thumbnail{
+    position: botom;
+  }
+}
+
+.adventures-container{
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    .adventure-paragraphs h3{
+      font-size:3rem;
+      text-transform: uppercase;
+      font-weight:bold;
+      margin-top: 5rem;
+      line-height:1.75;
+      }
+}

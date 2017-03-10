@@ -1,4 +1,4 @@
-adventure single
+<!-- adventure single -->
 <?php get_header(); ?>
 
 <section class="single-adventure-image">
@@ -11,17 +11,17 @@ adventure single
             </div>
         <?php endif; ?>
 </section>
-<div class="about-container">
+<div class="adventures-container">
   <div class="adventure-paragraphs">
             <h3>
                 <?php the_title(); ?>
             </h3>
-            <div>
-            Created By <?php the_author(); ?> on <?php the_time('F j, Y g:i a'); ?>
+            <h1 style="font-size:1.1rem; text-transform:uppercase;">Created By <?php the_author(); ?></h1>
+            <div class="adv-para" style="font-size: 1.12rem; line-height: 1.5;padding: 1rem 0;">
+              <p>
+                <?php the_content(); ?>
+              </p>
             </div>
-
-            <br><br><br>
-            <?php the_content(); ?>
             <br />
         </article>
       <?php endwhile; ?>

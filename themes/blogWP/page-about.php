@@ -10,7 +10,7 @@
       <article class="post" style="position: relative;">
         <?php if(has_post_thumbnail()): ?>
             <div class="post-thumbnail" style="background: linear-gradient( to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%); z-index:1">
-                <?php the_post_thumbnail(); ?>
+                <?php the_post_thumbnail('small'); ?>
             </div>
             <h1 class="about" style="position: absolute;top: 33%; width: 100%;"><?php the_title() ?></h1>
           <?php endif; ?>
