@@ -34,3 +34,37 @@
 .journal-single-post p{
   color:black;
 }
+
+/*ARCHIVE JOURNAL PAGE*/
+.archive-block {
+  border:1px solid #ccc
+}
+
+.journal-h2{
+  position:absolute;
+  color:white;
+  background-color:#19625d;
+  font-size:2rem;
+  padding:1rem;
+  text-transform:uppercase;
+  width:40%;
+  a{
+    color:white;
+  }
+}
+
+height-containers img{
+  position:relative;
+}
+
+.pull-right{
+  position:absolute;
+  color:white;
+  background-color:#19625d;
+  font-size:1rem;
+  padding:0.5rem;
+  text-transform:uppercase;
+  width:20%;
+  left:40%;
+
+}
