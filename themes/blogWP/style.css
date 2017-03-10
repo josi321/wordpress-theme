@@ -1165,7 +1165,8 @@ article.post a.button {
   text-transform: uppercase;
   font-size: 2rem;
   padding: 2rem;
-  border-bottom: 3px solid #f4f4f4; }
+  border-bottom: 3px solid #f4f4f4;
+  padding-top: 10%; }
 
 .adventure-grid {
   width: 100%;
@@ -1173,7 +1174,7 @@ article.post a.button {
   min-height: 150vh; }
   .adventure-grid img {
     width: 100%;
-    height: auto;
+    height: 60vh;
     border-top: 20px solid white; }
 
 .post {
@@ -1193,3 +1194,22 @@ article.post a.button {
     font-weight: bold;
     margin-top: 5rem;
     line-height: 1.75; }
+
+.col-md-6 {
+  position: relative; }
+
+.overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%); }
+
+.ad-title-btn {
+  position: absolute;
+  color: white;
+  top: 10%;
+  left: 5%; }
+  .ad-title-btn h1 {
+    padding-bottom: 2rem; }
+  .ad-title-btn a {
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 1rem;
+    color: white; }

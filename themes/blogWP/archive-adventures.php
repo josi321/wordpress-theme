@@ -1,5 +1,5 @@
 
-Im in archive-adventure.php
+<!-- Im in archive-adventure.php -->
 
 <?php
 /**
@@ -28,9 +28,7 @@ get_header(); ?>
     <img <?php the_post_thumbnail(); ?>
     <div class="ad-title-btn">
       <h1> <?php echo the_title(); ?></h1>
-      <a href="<?php the_permalink(); ?>">
-        <h2>READ MORE</h2>
-      </a>
+        <h2><a href="<?php the_permalink(); ?>">READ MORE</a></h2>
     </div>
   </div>
 <?php endwhile; ?>
