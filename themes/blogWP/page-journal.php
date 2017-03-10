@@ -17,7 +17,7 @@
     <h4 class="pull-right"><?php the_date('F j, Y'); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></h4>
 		<br><br><br>
 		<p><?php the_excerpt(); ?></p>
-		<br><br><br>
+		<br><br>
     <a style="color:black" class="read-btn" href="<?php the_permalink(); ?>">READ ENTRY → </a>
     <br><br><br><br>
   </div>
