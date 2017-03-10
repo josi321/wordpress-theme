@@ -1103,8 +1103,14 @@ nav.main-nav {
     height: 35vh; }
 
 .single-product-container {
-  height: 80vh;
-  padding-top: 7%; }
+  height: 60vh;
+  padding-top: 7%;
+  margin-bottom: 15%; }
+  .single-product-container .single-product-image {
+    width: 46%;
+    float: left;
+    padding: 0 1rem;
+    margin-left: 3rem; }
 
 .product-description {
   float: right;
@@ -1123,7 +1129,7 @@ nav.main-nav {
     font-size: 1rem;
     color: #333;
     line-height: 1.5;
-    padding: 0 3rem 2rem 1rem; }
+    padding: 0 1rem 0.8rem 1rem; }
   .product-description .social-buttons a {
     border: 1px solid #333;
     padding: 5px 10px;

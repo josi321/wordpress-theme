@@ -1,6 +1,7 @@
-Im in single product.php
+<!-- Im in single product.php -->
 
 <?php get_header(); ?>
+<br><br>
 <div class="single-product-container">
   <?php if(have_posts()): ?>
     <?php while(have_posts()): the_post(); ?>
