@@ -7,12 +7,12 @@
 <section class="about-image">
   <?php if(have_posts()) : ?>
     <?php while(have_posts()): the_post(); ?>
-      <article class="post">
+      <article class="post" style="position: relative;">
         <?php if(has_post_thumbnail()): ?>
             <div class="post-thumbnail" style="background: linear-gradient( to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%); z-index:1">
                 <?php the_post_thumbnail(); ?>
             </div>
-            <!-- <h1 class="about"><?php the_title() ?></h1> -->
+            <h1 class="about" style="position: absolute;top: 33%; width: 100%;"><?php the_title() ?></h1>
           <?php endif; ?>
         <?php endwhile; ?>
         <?php endif; ?>

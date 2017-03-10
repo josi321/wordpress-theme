@@ -1,4 +1,4 @@
-i am in archive products.php
+<!-- i am in archive products.php -->
 <?php get_header(); ?>
 <div>
 <br><br><br><br><br>

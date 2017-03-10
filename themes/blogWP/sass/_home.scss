@@ -65,8 +65,9 @@
 }
 .journal-image {
 	width: 30%;
+	height:auto;
 	border: 2px solid #e1e1e1;
-	height: 75vh;
+	/*height: 75vh;*/
 	h4 {
 		font-size: 12px;
 		color: #404040;
@@ -81,28 +82,32 @@
 	}
 	h2 {
 		a {
-			font-size: 1.75rem;
+			font-size: 90%;
 			color: #248A83;
 			line-height: 1.5;
 			font-family: 'Merriweather', serif;
 			text-transform: uppercase;
+			padding-bottom: 2rem;
+			/*margin-bottom:25%;*/
 		}
 	}
 }
 .height{
 	height:10rem;
-	padding: 0 1rem;
+	padding-bottom:15%;
+	.read-btn {
+		border: 1px solid black;
+		background-color: white;
+		color: black;
+		text-align: center;
+		margin-left: 1rem;
+		margin-top: 2rem;
+		margin-bottom:1rem;
+		padding: 10px 15px;
+		transform: translate(0px, 100px);
+	}
 }
-.read-btn {
-	border: 1px solid black;
-	background-color: white;
-	color: black;
-	text-align: center;
-	margin-left: 1rem;
-	margin-top: 2rem;
-	padding: 10px 15px;
-	transform: translate(0px, 100px);
-}
+
 .container-adventure {
 	padding: 0 5%;
 	margin: 0 auto;

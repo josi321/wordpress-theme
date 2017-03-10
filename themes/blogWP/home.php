@@ -49,8 +49,10 @@
                 <h4><?php the_date('F j, Y'); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></h4>
                 <div class="height">
                   <h2><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h2>
+                  <br>
+                  <a class="read-btn" href="<?php the_permalink(); ?>">READ ENTRY</a>
                 </div>
-                <a class="read-btn" href="<?php the_permalink(); ?>">READ ENTRY</a>
+
             </div>
           <?php endforeach; ?>
         </div>
