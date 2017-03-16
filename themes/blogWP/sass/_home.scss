@@ -2,7 +2,9 @@
 /*JOURNAL SECTION*/
 /*ADVENTURES SECTION*/
 .banner {
-	background: url("images/logos/inhabitent-logo-full.svg") center no-repeat, linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%), url("images/home-hero.jpg") top no-repeat;
+	background: url("images/logos/inhabitent-logo-full.svg") center no-repeat contain,
+	linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%) contain,
+	url("images/home-hero.jpg") top no-repeat cover;
 	min-height: 100vh;
 	z-index: 1;
 }
