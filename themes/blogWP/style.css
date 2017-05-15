@@ -690,6 +690,7 @@ object {
 header .h_right {
   float: right; }
   header .h_right input[type="text"] {
+    color: white;
     width: 100px;
     background-color: transparent;
     border: 1px solid #ccc; }
@@ -718,7 +719,8 @@ nav.main-nav {
   padding-left: 5rem; }
   nav.main-nav li {
     line-height: 40px;
-    color: white; }
+    color: white;
+    padding-left: 1rem; }
   nav.main-nav a {
     color: white;
     text-decoration: none;
@@ -783,7 +785,7 @@ nav.main-nav {
 
 .shop-h1 {
   text-align: center;
-  padding: 3rem 0;
+  padding: 5rem 0;
   font-family: 'Novovento Sans Web', sans-serif;
   font-size: 4rem;
   color: #404040;
@@ -828,7 +830,7 @@ nav.main-nav {
 
 .journal-h1 {
   text-align: center;
-  padding: 3rem 0;
+  padding: 5rem 0;
   font-family: 'Novovento Sans Web', sans-serif;
   font-size: 4rem;
   color: #404040;
@@ -888,7 +890,7 @@ nav.main-nav {
 
 .adventure-h1 {
   text-align: center;
-  padding: 3rem 0 3rem 0;
+  padding: 5rem 0 5rem 0;
   font-family: 'Novovento Sans Web', sans-serif;
   font-size: 4rem;
   color: #404040;
@@ -1036,11 +1038,12 @@ nav.main-nav {
   z-index: 1; }
   .about-image .about {
     color: white;
-    text-shadow: 2px 2px #ccc;
+    text-shadow: 2px 2px black;
     text-transform: Uppercase;
     text-align: center;
     padding-top: 0rem;
-    font-size: 4rem; }
+    font-size: 4rem;
+    margin-top: 7rem; }
 
 .about-container {
   max-width: 1120px;

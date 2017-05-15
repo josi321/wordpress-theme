@@ -31,6 +31,7 @@ header {
 	.h_right {
 		float: right;
 		input[type="text"] {
+			color:white;
 			width: 100px;
 			background-color: transparent;
 			border: 1px solid #ccc;
@@ -64,6 +65,7 @@ nav.main-nav {
 	li {
 		line-height: 40px;
 		color: white;
+		padding-left:1rem;
 	}
 	a {
 		color: white;

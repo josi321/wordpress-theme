@@ -44,7 +44,7 @@
   					foreach ( $postslist as $post ) :
   					setup_postdata( $post ) ; ?>
 
-            <div class="journal-image">
+            <div class="journal-image" style="min-height:70vh;">
                 <img <?php the_post_thumbnail(); ?>
                 <h4><?php the_date('F j, Y'); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?></h4>
                 <div class="height">
