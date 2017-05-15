@@ -10,7 +10,9 @@
 	position: fixed;
 	z-index: 1000;
 	/*margin-left: 20px;*/
-	background-color:#d3d3d3;
+	/*background-color:#d3d3d3;*/
+	background-color:darkslategrey;
+	height: 6.5rem;
 	/*padding-bottom: 1rem;*/
 	/*rgba(255,255,255,0.6)*/
 
@@ -57,7 +59,7 @@ nav.main-nav {
 	overflow: hidden;
 	display: inline-block;
 	background: transparent;
-	width: 50%;
+	width: 45%;
 	padding-left: 5rem;
 	li {
 		line-height: 40px;
